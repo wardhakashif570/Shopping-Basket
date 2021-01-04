@@ -1,0 +1,116 @@
+.rowBar {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .singleCart_Wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .subTotal {
+    border-top: 3px solid steelblue;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .checkoutButton {
+    margin-top: 20px;
+    float: right;
+    border-radius: 50px;
+    padding: 10px 20px;
+    outline: none !important;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 21 px;
+  }
+  .cartProductImage {
+    height: 150px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  .removeBtn {
+    color: red !important;
+  }
+  .removeBtn:hover {
+    cursor: pointer;
+  }
+  .subTotalPrice {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .dynamic_Cart_Data {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  @media (max-width: 990px) {
+    .cartProductImage {
+      height: 120px;
+      width: 150px;
+      margin-right: 10px;
+    }
+  }
+  @media (max-width: 768px) {
+    .cartProductImage {
+      height: 120px;
+      margin-right: 10px;
+    }
+    .dynamic_Cart_Data {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  }
+  @media (max-width: 580px) {
+    .cartProductImage {
+      height: 100px;
+      width: 140px;
+      margin-right: 10px;
+    }
+    .singleCart_Wrapper {
+      display: inline-block;
+    }
+    .rowBar {
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 500px) {
+    .cartProductImage {
+      height: 80px;
+      width: 120px;
+  
+      /* margin-right: 10px; */
+    }
+  }
+  @media (max-width: 390px) {
+    .cartProductImage {
+      height: 100px;
+      /* margin-right: 10px; */
+    }
+    .rowBar {
+      font-size: 18px;
+    }
+    .dynamic_Cart_Data {
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .dynamic_Cart_Data {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+  @media (max-width: 390px) {
+    .rowBar {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 285px) {
+    .rowBar {
+      font-size: 13px;
+    }
+  }
